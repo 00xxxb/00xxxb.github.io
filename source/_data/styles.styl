@@ -9,13 +9,13 @@ body {
 
 
 // 主页文章添加阴影效果
-.post {
-  margin-top: 60px;
-  margin-bottom: 60px;
-  padding: 25px;
-  -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);
-  -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);
- }
+//.post {
+//  margin-top: 60px;
+//  margin-bottom: 60px;
+//  padding: 25px;
+//  -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);
+//  -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);
+// }
 
 
 // 标题
@@ -24,7 +24,7 @@ body {
     color: #fff;
     background: url(/images/95033e2a5404c30e2ab560e72b157a0a.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    //background-attachment: fixed;
     background-position: center;
     background-size: cover;
 }  
@@ -34,7 +34,7 @@ body {
 // 修改主体透明度
 .main-inner{
     background: #fff;
-    //opacity: 0.85;
+   // opacity: 0.85;
 
 }
 
@@ -46,7 +46,10 @@ body {
       box-shadow: rgba(0,0,0,0.1) 0px 15px 35px 0px, rgba(0,0,0,0.31) 6px 6px 10px 0px;
 }
 
-
+//标题那一块的，找你找的好辛苦！
+.site-brand-container {
+	  padding: inherit;
+}
 
 //主标题颜色
 .brand{
@@ -144,7 +147,7 @@ article .post-copyright{
 
 //二次深度美化
 //给文章概述与文章标题添加上一个方框
-.content .posts-expand .post-block{
+.post-block{
     position: relative;
     margin-bottom: 30px;
     padding: 40px 20px;
@@ -152,11 +155,13 @@ article .post-copyright{
     box-shadow: rgba(0,0,0,0.1) 0px 15px 35px 0px, rgba(0,0,0,0.31) 6px 6px 10px 0px;//添加阴影效果
     border-radius: 20px;//添加椭圆效果
     background-color: #FFF0F5;//文章的背景色
+	//background: aliceblue
     transition: -webkit-transform .3s;
     transition: transform .3s;
     transition: transform .3s,-webkit-transform .3s;
     transform-style: preserve-3d;
 }
+
 .post-expand .post-body{
     position: relative;
     overflow: visible;
@@ -185,8 +190,14 @@ article .post-copyright{
 
 }
 
-
 //修改不蒜子数据颜色
 .busuanzi-value {
   color: #1890ff;
+}
+
+// 复制按钮样式top调整
+.highlight-wrap .copy-btn {
+padding: 
+1px 6px;  
+top: 3px;
 }

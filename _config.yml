@@ -102,6 +102,7 @@ deploy:
   repo: https://github.com/00xxxb/00xxxb.github.io.git
   branch: master
 
+
 live2d:
   enable: true
   scriptFrom: local
@@ -119,4 +120,4 @@ live2d:
     hOffset: 0  # 调节水平位置
     vOffset: 150  # 调节垂直位置
   mobile:
-    show: true
+    show: false
